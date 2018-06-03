@@ -17,11 +17,14 @@ setup:
 
 build: build-deps fmt vet compile
 
-build-deps: dep ensure
+build-deps: 
+	dep ensure
 
-fmt: go fmt ./...
+fmt: 
+	go fmt ./...
 
-vet: go vet ./...
+vet: 
+	go vet ./...
 
 compile:
 	mkdir -p out

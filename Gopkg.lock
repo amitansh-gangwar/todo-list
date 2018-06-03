@@ -77,6 +77,18 @@
   revision = "bb74f1db0675b241733089d5a1faa5dd8b0ef57b"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/mohtamohit/go-todo-list"
+  packages = [
+    "app",
+    "config",
+    "db",
+    "handler",
+    "todo"
+  ]
+  revision = "8d7c873e262d49b2f61ba2d59e6663fae4b36c3d"
+
+[[projects]]
   name = "github.com/pelletier/go-toml"
   packages = ["."]
   revision = "acdc4509485b587f5e675510c4f2c63e90ff68a8"
@@ -161,6 +173,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "3ccccaf988af77a52d04d59469e0322fe08fbcca5f8a4b6da3c72e80a2f73a0f"
+  inputs-digest = "d767e69bdcffe4a5115ceb58320282daee48d14233d1b71444d118a79ec69e0b"
   solver-name = "gps-cdcl"
   solver-version = 1
